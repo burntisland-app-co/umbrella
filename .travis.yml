@@ -7,7 +7,7 @@ before_install:
     - docker build -t bubionbreakfast/restaurant-app -f Dockerfile.dev .    
 
 script:
-    - docker run -e CI=true bubionbreakfast/restaurant-app npm run test   
+    - docker run -e CI=true bubionbreakfast/restaurant-app npm run test -- --coverage   
 
 deploy:
   provider: elasticbeanstalk
