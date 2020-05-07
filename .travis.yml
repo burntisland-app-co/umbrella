@@ -13,7 +13,7 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-west-2"
   app: "umbrella"
-  env: "Umbrella-env"
+  env: "U   mbrella-env"
   bucket_name: "elasticbeanstalk-eu-west-2-890785154437"
   bucket_path: "umbrella"
   on:
