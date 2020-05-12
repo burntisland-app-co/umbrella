@@ -1,38 +1,184 @@
 .App {
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+  margin-left: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#main-header a{
+  color: #e61561;
+}
+
+#main-header a:hover{
+  color: #f2bfc9;
+}
+
+#nav-bar{
+  background-color: grey;
+  height: 45px;
+    margin-top: 20px;
+   display: flex;
+  align-items: center;
+  padding: 1%;
+}
+
+#nav-bar ul{
+  background-color: black;
+  height: 45px;
   }
+
+#nav-bar li{
+  list-style-type: none;
+  text-align: center;
+  width: 33%;
+ }
+
+#nav-bar a{
+  text-decoration: none;
+  color: white;
+  line-height: 45px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#nav-bar a:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+.container{
+  margin-top: 30px;
   display: flex;
-  flex-direction: column;
+  display: inline-flex;
+}
+
+.customer-container{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.detail{
+  margin-top: 30px;
+}
+
+.detail li{
+  padding: 10px;
+}
+
+.highlightedText{
+  color: #e61561;
+}
+
+.header{
+  margin: 30px;
+}
+
+.homeContainer{
+  /* margin: 50px; */
+}
+
+#home-reservation-btn a{
+  color: white;
+  text-decoration: none;
+}
+
+#home-images {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* width: 100%; */
 }
 
-.App-link {
-  color: #61dafb;
+#home-images img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:  80%;
+  margin-top: 2%;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#customer-form{
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px; /* Set the width of the sidebar */
+  background-color: white; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.booking-form{
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px; /* Set the width of the sidebar */
+  background-color: white; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.customer-selector{
+  padding-top: 20px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px;
+
+}
+
+.booking-selector{
+  padding-top: 20px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px;
+}
+
+.customer-list{
+  padding-top: 20px;
+  margin: 5%;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px;
+  text-decoration: none;
+}
+
+.customer-list-item{
+  text-decoration: none;
+}
+
+.booking-container{
+  padding-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 100%; /*Full-height: remove this if you want "auto" height*/
+  /* width: 400px; */
+  /* margin-left: 33%; */
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.view-booking{
+  padding-top: 20px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px;
+}
+
+.new-booking{
+  padding-top: 20px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px;
+}
+
+.date-thing{
+  padding-bottom: 5%;
+}
+
+ul{
+  list-style-type: none;
 }
