@@ -4,7 +4,7 @@ services:
     - docker
 
 before_install:
-    - docker build -t bubionbreakfast/restaurant-app -f Dockerfile.dev .    
+    - docker build -t burntisland-app-co/umbrella -f Dockerfile.dev .    
 
 # script:
 #     - docker run -e CI=true bubionbreakfast/restaurant-app npm run test -- --coverage   
